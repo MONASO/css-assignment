@@ -1,0 +1,146 @@
+body{
+    background-color: #fff;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    font-family: montserrat;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #1f2937;
+    padding: 0 20px;
+}
+.logo-header{
+    width: 50%;
+    color: #f9faf8;
+    font-size: 24px;
+}
+.nav-header{
+    width: 50%;
+    justify-content: end;
+}
+.nav-header ul{
+    display: flex ;
+} 
+.nav-header li{
+    display: block;
+    min-width: fit-content;
+    padding: 0 20px;
+    color: #fff;
+}
+.banner-container{
+    width: 100%;
+    background-color: #1f2937;
+    height: 460px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+}
+.banner-container h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.banner-container p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.column-1,.column-2{    
+    display: table-cell;
+    align-items: center;
+    padding: 0px 20px 0px 40px;
+}
+button{
+    padding:14px 41px;
+    background-color:#3882F6;
+    border-radius: 12px;
+    border:0;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.random-information{
+    padding: 60px 0;
+    text-align: center;
+}
+.inner-random-section{
+    display: flex;
+    justify-content: center;
+}
+.random-information-boxes{
+    max-width: 250px;
+    padding: 0 30px;
+    justify-content: center;
+}
+.random-information-boxes img{
+    border-radius: 21px;
+}
+.random-information-boxes p{
+    max-width: 100%;
+    justify-content: center;
+}
+.testimonails-container{
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 60px;
+    display: flex;    align-items: center;
+    justify-content: center;
+    place-items: center;
+}
+.testimonails-container div{
+    width: 1000px;
+}
+h3{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 200;
+}
+.testimonails-container h4{
+    text-align: end;
+}
+.newsletter-container{
+    padding: 60px 140px;
+    
+}
+.newsletter-container .main{
+    background-color:#3882F6 ;
+    display: flex;
+    border-radius:21px;
+    padding:0 80px;
+}
+.main{
+    min-width: 50%; 
+}
+.primary{
+    display: flex;
+    margin: 40px 0px;
+    min-width: 50%;
+    justify-content: end;
+}
+.primary button{
+
+    place-items: center;
+    border:1px solid #fff;
+    padding:14px 41px;
+    background-color:#3882F6;
+    border-radius: 12px;
+}
+.newsletter-container h4,.newsletter-container p{
+    color: white;
+}
+footer h5{
+    text-align: center;
+    width: 100%;
+    background-color: #1f2937;
+    padding: 20px 20px;
+    margin: 0%;
+    color: #fff;
+}
